@@ -1,0 +1,28 @@
+{
+  "key": "clean-jira-agent",
+  "name": "PO Assist Agent (Fresh)",
+  "baseUrl": "https://your-app-name.onrender.com",
+  "authentication": {
+    "type": "none"
+  },
+  "lifecycle": {
+    "installed": "/installed"
+  },
+  "scopes": [
+    "read",
+    "write"
+  ],
+  "modules": {
+    "generalPages": [
+      {
+        "key": "clean-agent-page",
+        "location": "system.top.navigation.bar",
+        "name": {
+          "value": "PO Assist Agent"
+        },
+        "url": "/",
+        "conditions": []
+      }
+    ]
+  }
+}
