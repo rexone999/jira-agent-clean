@@ -1,7 +1,7 @@
 {
   "key": "clean-jira-agent",
   "name": "PO Assist Agent (Fresh)",
-  "baseUrl": "https://your-app-name.onrender.com",
+  "baseUrl": "https://jira-agent-clean.onrender.com",
   "authentication": {
     "type": "none"
   },
